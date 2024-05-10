@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 70px));
+    grid-template-rows: repeat(5, 50px);
+}
+
+.week{
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 70px));
+    grid-template-rows: minmax(0, 25px);
+}
+
+.weekItem{
+    background-color: #1f1f1f;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+    font-size: 10px;
+}
+
+.day {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    border-top: 1px solid gray;
+    text-align: center;
+}
+
+.alldays{
+    font-size: 16px;
+    margin-top: 7px;
+}
+
+.otherMonth{
+    color: #525252;
+}
+
+.today{
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.cool{
+    background-color: #523c3c;
+}
+
+.input{
+    display: block;
+    max-width: 200px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.inputs{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button2{
+    cursor: pointer;
+    padding: 5px 10px;
+    color: white;
+    background-color: #25c276;
+    border: 2px solid #25c276;
+}
+
+.button2:active{
+    background-color: #22a365; 
+    border: 2px solid #22a365;
+}

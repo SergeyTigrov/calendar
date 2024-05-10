@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.CalHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.monthInfo{
+    display: flex;
+}
+
+.month {
+    margin-right: 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.year{
+    font-size: 20px;
+}
+
+.button{
+    cursor: pointer;
+    padding: 5px 10px;
+    color: white;
+    background-color: #25c276;
+    border: 2px solid #25c276;
+}
+
+.button:active{
+    background-color: #22a365; 
+    border: 2px solid #22a365;
+}
+
+.active{
+    background-color: transparent;
+    color: #25c276;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
